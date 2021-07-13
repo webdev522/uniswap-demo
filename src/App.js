@@ -62,6 +62,13 @@ function App() {
           : // display the total amount of DAI spread across all pools
             parseFloat(daiTotalLiquidity).toFixed(0)}
       </div>
+      <iframe
+        src="https://app.uniswap.org/"
+        height="660px"
+        width="100%"
+        // style="    border: 0;    margin: 0 auto;    display: block;    border-radius: 10px;    max-width: 600px;    min-width: 300px;  "
+        id="myId"
+      />
     </div>
   )
 }
