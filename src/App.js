@@ -41,8 +41,6 @@ function App() {
     },
   })
 
-  console.log(ethPriceData, daiData)
-
   const daiPriceInEth = daiData && daiData.tokens[0].derivedETH
   const daiTotalLiquidity = daiData && daiData.tokens[0].totalLiquidity
   const ethPriceInUSD = ethPriceData && ethPriceData.bundles[0].ethPrice
